@@ -10,7 +10,28 @@ Ray traced images are known for their accurate calculation of shadow, reflection
 
 In addition to generative art I'm also a fan of woodblock prints.  At one point I decided to try and copy the typical style of woodblock shading with code.  Here's an example print showing what I was trying to achieve:
 
-![Woodblock Teapot](fuseart_images/teapot.png)[full](fuseart_images/sample_lighting.png)
+![Woodblock Teapot](fuseart_images/teapot.png)
+
+The solution turned out be be easier than I originally expected.  Here's the test scene that I was using rendered with simple lighting and soft shadows.
+
+![Test Scene](fuseart_images/sample_lighting.png)
+
+I think created procedural textures for each of the surfaces.  The texture is a simple triangle wave ramping between black and white.  (This one also has shading on it but I couldn't find one without.  :-)
+
+![Test Scene](fuseart_images/sample_texture.png)
+
+These are then combined.  For each pixel, the brightness of the lit image is compared to the brightness of the textured one.  If the lit image is lighter then the resulting pixels is white.  If the lit image is darker, the result is black.
+
+![Test Scene](fuseart_images/sample_result.png)
+
+Here's another image done with the same technique.
+
+![Test Scene](fuseart_images/pawn2.png)
+
+
+
+
+
 
 
 
