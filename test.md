@@ -1,7 +1,10 @@
 ---
 title: scoy
-subtitle: testing... 3
-layout: page
-show_sidebar: true
+subtitle: testing... 4
+layout: product-category
+show_sidebar: false
 ---
+
+Experimenting with products page as better solution for clickable gallery.
+
 
