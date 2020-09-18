@@ -10,5 +10,3 @@ features:
 ---
 
 This is the content about the Test29 image.
-
-![Test29](https://scoy.github.io/images/test29.png)

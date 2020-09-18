@@ -10,5 +10,3 @@ features:
 ---
 
 This is the content about the Test4 image.
-
-![Test4](https://scoy.github.io/images/test4.png)
