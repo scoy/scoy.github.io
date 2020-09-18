@@ -1,10 +1,59 @@
 ---
 title: scoy
-subtitle: testing... 1
+subtitle: testing... 2
 layout: page
 show_sidebar: false
 ---
 
+<head>
+    <title>Kodu | Worlds</title>
+    <script type="text/javascript">
+        // break out of iframe before we do anything else
+        if (top.location != self.location) {
+            top.location = self.location.href;
+        }
+        
+        if (document.domain != "localhost") {
+            document.domain = "scoy.github.io";
+        }
+    </script>
+
+    <!-- START OF SmartSource Data Collector TAG -->
+    <!-- Copyright (c) 1996-2011 Webtrends Inc.  All rights reserved. -->
+    <!-- Version: 9.4.0 -->
+    <!-- Tag Builder Version: HTB1.1.32.0  -->
+    <!-- Created: 9/15/2011 6:39:14 PM -->
+    <script src="/Content/scripts/webtrends.js" type="text/javascript"></script>
+    <!-- ----------------------------------------------------------------------------------- -->
+    <!-- Warning: The two script blocks below must remain inline. Moving them to an external -->
+    <!-- JavaScript include file can cause serious problems with cross-domain tracking.      -->
+    <!-- ----------------------------------------------------------------------------------- -->
+    <script type="text/javascript">
+    //<![CDATA[
+        var _tag = new WebTrends();
+        _tag.dcsGetId();
+    //]]>
+    </script>
+    <script type="text/javascript">
+    //<![CDATA[
+        _tag.dcsCustom = function () {
+            // Add custom parameters here.
+            //_tag.DCSext.param_name=param_value;
+        }
+        _tag.dcsCollect();
+    //]]>
+    </script>
+    <noscript>
+    <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="//statse.webtrendslive.com/dcscd6f6aadv0hgoy3iblef2y_3v9r/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.4.0&amp;dcssip=www.kodugamelab.com"/></div>
+    </noscript>
+    <!-- END OF SmartSource Data Collector TAG -->
+
+    <link href="/Content/css/Blueprint/screen.css" rel="stylesheet" type="text/css" />
+    
+    <link href="/Content/css/Style.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/Master.css" rel="stylesheet" type="text/css" />
+    
+</head>
 <body>
     <div class="container showGrid">
         <div id="outerHeader" class="span-24">
@@ -532,4 +581,3 @@ show_sidebar: false
 </script> 
 
 </body>
-
