@@ -1,6 +1,7 @@
 ---
 title: scoy
 subtitle: testing... 5
+layout: page 
 show_sidebar: false
 ---
 
