@@ -1,9 +1,9 @@
 ---
-title: Product 2 Name
+title: Product test29
 subtitle: Product 2 tagline here
 product_code: ABC123
 layout: product
-image: https://via.placeholder.com/640x480
+image: https://scoy.github.io/images/test29_640.png
 price: £0.99 + VAT
 features:
     - label: Great addition to any home
