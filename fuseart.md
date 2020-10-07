@@ -88,6 +88,38 @@ While the previous images had hundreds of thousands to millions of spheres in th
   <img src="fuseart_images/metal3_thumb.jpg"/>
 </a>
 
+# Just Random
+Sometimes it's interesting to randomly replicate a shape a bunch of times.  For instance, the following is composed of randomly shaped blocks set on a plane.  The result strongly suggests a cityscape.
+<a href="fuseart_images/city1_01.jpg">
+  <img src="fuseart_images/city1_01_thumb.jpg"/>
+</a><br>
+Change the common plane from a base to a midline and things become more abstract.<br>
+<a href="fuseart_images/blocks2a.jpg">
+  <img src="fuseart_images/blocks2a_thumb.jpg"/>
+</a>
+<a href="fuseart_images/blocks3.jpg">
+  <img src="fuseart_images/blocks3_thumb.jpg"/>
+</a><br>
+Or stick with cubes but wrap them around a sphere. I love the texture that results as the density of the cubes increases.<br>
+<a href="fuseart_images/blocks4b.jpg">
+  <img src="fuseart_images/blocks4b_thumb.jpg"/>
+</a>
+<a href="fuseart_images/blocks4d.jpg">
+  <img src="fuseart_images/blocks4d_thumb.jpg"/>
+</a>
+<a href="fuseart_images/blocks4e.jpg">
+  <img src="fuseart_images/blocks4e_thumb.jpg"/>
+</a><br>
+Here I've just confined the positioning to an roughly cubical volume in space while keeping the boxes axis aligned.  The first image brings to mind Brutalist architecture.  Ok, the grey-scale rendering kind of pushes it in that direction, too.  In the second image I've constrain the boxes to have one dimension much smaller than the other two.  Now I see walls and floors for an abstract platformer game.<br>
+<a href="fuseart_images/box1_07.jpg">
+  <img src="fuseart_images/box1_07_thumb.jpg"/>
+</a>
+<a href="fuseart_images/box3_06.jpg">
+  <img src="fuseart_images/box3_06_thumb.jpg"/>
+</a>
+
+
+
 
 # Do It Yourself!
 If you're interested in experimenting with generative art a great place to start would be to give Processing a try.  Processing is a free, open source tool designed with generative art in mind.  It's simple enough to be picked up by non-coders but deep enough to be endlessly interesting.
