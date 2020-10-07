@@ -89,7 +89,7 @@ While the previous images had hundreds of thousands to millions of spheres in th
 </a>
 
 # Just Random
-Sometimes it's interesting to randomly replicate a shape a bunch of times.  For instance, the following is composed of randomly shaped blocks set on a plane.  The result strongly suggests a cityscape.
+Sometimes it's interesting to randomly replicate a shape a bunch of times.  For instance, the following is composed of randomly shaped blocks set on a plane.  The result strongly suggests a cityscape.<br>
 <a href="fuseart_images/city1_01.jpg">
   <img src="fuseart_images/city1_01_thumb.jpg"/>
 </a><br>
