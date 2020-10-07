@@ -36,11 +36,12 @@ Here's another image done with the same technique.
   Click on the image to see the full size version where you can actually see the individual spheres.
 </p>
 
-This image got me started with doing a bunch more particle system / sphere images.  Here are some samples.  Click through for the full size versions.
+This image got me started with doing a bunch more particle system / sphere images.  Here are some samples.  Click through for the full size versions.<br>
 <a href="fuseart_images/panoramic.jpg">
-  <img src="fuseart_images/panoramic_thumb.jpg" align="right" hspace="20"/>
+  <img src="fuseart_images/panoramic_thumb.jpg"/>
 </a>
 
+<br><br>
 # Do It Yourself!
 If you're interested in experimenting with generative art a great place to start would be to give Processing a try.  Processing is a free, open source tool designed with generative art in mind.  It's simple enough to be picked up by non-coders but deep enough to be endlessly interesting.
 [Go here to learn more and get Processing.](https://processing.org/)
