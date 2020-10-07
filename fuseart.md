@@ -64,7 +64,31 @@ This image got me started with doing a bunch more particle system / sphere image
   <img src="fuseart_images/worm1b_thumb.jpg"/>
 </a>
 
-<br><br>
+# Not So Many Spheres
+While the previous images had hundreds of thousands to millions of spheres in them, the next set of images just have three spheres each.  Two smaller, slightly reflective, colored spheres are positioned within a single larger mirrored sphere.  The viewpoint is also contained within the larger sphere.  Because the spheres are mirrored the resulting images have layers and layers of blended reflections.<br>
+<a href="fuseart_images/chris3_10.jpg">
+  <img src="fuseart_images/chris3_10_thumb.jpg"/>
+</a>
+<a href="fuseart_images/chris4.jpg">
+  <img src="fuseart_images/chris4_thumb.jpg"/>
+</a>
+<a href="fuseart_images/blue6_40.jpg">
+  <img src="fuseart_images/blue6_40_thumb.jpg"/>
+</a>
+<a href="fuseart_images/sarah2.jpg">
+  <img src="fuseart_images/sarah2_thumb.jpg"/>
+</a>
+<a href="fuseart_images/metal1.jpg">
+  <img src="fuseart_images/metal1_thumb.jpg"/>
+</a>
+<a href="fuseart_images/metal2.jpg">
+  <img src="fuseart_images/metal2_thumb.jpg"/>
+</a>
+<a href="fuseart_images/metal3.jpg">
+  <img src="fuseart_images/metal3_thumb.jpg"/>
+</a>
+
+
 # Do It Yourself!
 If you're interested in experimenting with generative art a great place to start would be to give Processing a try.  Processing is a free, open source tool designed with generative art in mind.  It's simple enough to be picked up by non-coders but deep enough to be endlessly interesting.
 [Go here to learn more and get Processing.](https://processing.org/)
