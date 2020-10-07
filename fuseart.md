@@ -48,8 +48,8 @@ This image got me started with doing a bunch more particle system / sphere image
 <a href="fuseart_images/hemi3.jpg">
   <img src="fuseart_images/hemi3_thumb.jpg"/>
 </a>
-<a href="fuseart_images/inv_028.jpg">
-  <img src="fuseart_images/inv_028_thumb.jpg"/>
+<a href="fuseart_images/inv028.jpg">
+  <img src="fuseart_images/inv028_thumb.jpg"/>
 </a>
 <a href="fuseart_images/mass_h.jpg">
   <img src="fuseart_images/mass_h_thumb.jpg"/>
