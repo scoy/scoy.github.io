@@ -30,7 +30,9 @@ Here's another image done with the same technique.
 
 # Lots of Spheres
 <p>
-  <img src="fuseart_images/worm4c_thumb.jpg" align="right" hspace="20" href="fuseart_images/worm4c.jpg"/>
+  <a href="fuseart_images/worm4c.jpg">
+    <img src="fuseart_images/worm4c_thumb.jpg" align="right" hspace="20"/>
+  </a>
   
   While working on Vivid I was constantly trying to improve the render times.  In a naive ray tracer, each ray must be test against every object in the scene. This can be brutally slow.  To speed things up most ray tracers use some kind of hierarchical bounding scheme. At one point I created the image to the right to stress test my bounding hierarchy scheme.  The image is composed of over 10 million spheres.  To define the layout of the spheres I created a particle system and placed spheres along the particles' paths.  The paths are affected by gravity, a twisting force, and a turbulence force defined using multiple octaves of Perlin Noise.  The RGB values which define the color of each particle were picked based on the initial XYZ velocity of each particle.  This means that particles which start off moving in similar directions have similar colors.<br><br>
   Click on the image to see the full size version where you can actually see the individual spheres.
