@@ -40,6 +40,27 @@ This image got me started with doing a bunch more particle system / sphere image
 <a href="fuseart_images/panoramic.jpg">
   <img src="fuseart_images/panoramic_thumb.jpg"/>
 </a>
+<a href="fuseart_images/copper016.jpg">
+  <img src="fuseart_images/copper016_thumb.jpg"/>
+</a>
+<a href="fuseart_images/hemi3.jpg">
+  <img src="fuseart_images/hemi3_thumb.jpg"/>
+</a>
+<a href="fuseart_images/inv_028.jpg">
+  <img src="fuseart_images/inv_028_thumb.jpg"/>
+</a>
+<a href="fuseart_images/mass_h.jpg">
+  <img src="fuseart_images/mass_h_thumb.jpg"/>
+</a>
+<a href="fuseart_images/n2p3_01.jpg">
+  <img src="fuseart_images/n2p3_01_thumb.jpg"/>
+</a>
+<a href="fuseart_images/n2p6_46.jpg">
+  <img src="fuseart_images/n2p6_46_thumb.jpg"/>
+</a>
+<a href="fuseart_images/worm1b.jpg">
+  <img src="fuseart_images/worm1b_thumb.jpg"/>
+</a>
 
 <br><br>
 # Do It Yourself!
