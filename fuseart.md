@@ -28,7 +28,14 @@ Here's another image done with the same technique.
 
 ![Test Scene](fuseart_images/pawn2.png)
 
+# Spheres
 
+
+
+
+# Do It Yourself!
+If you're interested in experimenting with generative art a great place to start would be to give Processing a try.  Processing is a free, open source tool designed with generative art in mind.  It's simple enough to be picked up by non-coders but deep enough to be endlessly interesting.
+[Go here to learn more and get Processing.](https://processing.org/)
 
 
 
