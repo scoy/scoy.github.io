@@ -1,3 +1,47 @@
+# Site Settings
+title: InfiniteInstant
+tagline: Think, Focus, Dream
+#email:  scoy@InfiniteInstant.com
+description: >
+#baseurl: ""
+#url: ""
+#permalink: pretty
+#favicon: /path/to/favicon.png
+#gh_sponsor: chrisrhymes
+#hide_share_buttons: true
+
 remote_theme: chrisrhymes/bulma-clean-theme
-title: [scoy]
-description: [think, focus, dream]
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "scoy"
+      layout: post
+      show_sidebar: true
+      hero_height: is-small
