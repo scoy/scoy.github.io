@@ -10,6 +10,12 @@ GitHub Desktop doesn't seem to know much about submodules so it's not a lot of h
 
 Most of this is from <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
 
+Aliases configured to make this easier.
+```
+$ git config alias.sdiff '!'"git diff && git submodule foreach 'git diff'"
+$ git config alias.spush 'push --recurse-submodules=on-demand'
+$ git config alias.supdate 'submodule update --remote --merge'
+```
 ## Adding a Submodule to a Project
 In Git Bash, cd to the folder for the project you want to add the submodule to.  For instance, cd to /c/gitHub/MonoGame/Apps/AppFoo then add the submodule.<br>
 **$ git submodule add URL**<br>
@@ -73,14 +79,43 @@ index 468930a..9e4f8ec 100644
 The first part just shows the **-dirty** indicator which we see in GitHub Desktop.  The rests shows the changes, ie a comment has been added to MyMath.cs and Koi.Prim2D now references the Koi project.
 
 ## Getting Changes from Upstream
-$ git fetch<br>
-$ git merge origin/main
+Simple version is to use the supdate alias to fetch and merge:<br>
+**$ git supdate**
 
-$ git submodule update --remote {Submodule Name}
-$ git commit ????? Text talks about committing but doesn't show it.
+To see the what was fetched.<br>
+**$ git status**<br>
+**$ git sdiff**
+
+Add and finalize the commit:<br>
+**$ git commit -a**<br>
+
+## Pushing Changes from Local to Upstream
+To see what changes we currently have locally:<br>
+**$ git sdiff**<br>
+
+For each submodule that has changed:<br>
+>Go into the submodule directory.<br>
+Add the files you want to commit.<br>
+**$ git add \<file\>** or<br>
+**$ git add -A** to get all changed files.
 
 
-## Pulling Changes from Local to Upstream
+>Commit:<br>
+**$ git commit**
 
+>Push to remote:<br>
+**$ git push**<br>
+This pushes to GitHub, updating the main branch.
+
+
+## Creating a New Project from a Project with Submodules
+
+- Copy project to new folder with new name.
+- Delete .git folder
+- Change solution and project names (inside .sln and .csproj files, too)
+- Create repo in Desktop
+- If .gitmodules file is missing, in Bash **$ git sumbmodule init**
+- In Bash, go to folder and add each submodule **$ git submodule add \<URL\>** 
+- Publish to GitHub.
 
 
