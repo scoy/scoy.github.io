@@ -13,9 +13,9 @@ Most of this is from <https://git-scm.com/book/en/v2/Git-Tools-Submodules>
 
 Aliases configured to make this easier.
 ```
-$ git config alias.sdiff '!'"git diff && git submodule foreach 'git diff'"
-$ git config alias.spush 'push --recurse-submodules=on-demand'
-$ git config alias.supdate 'submodule update --remote --merge'
+$ git config --global alias.sdiff '!'"git diff && git submodule foreach 'git diff'"
+$ git config --global alias.spush 'push --recurse-submodules=on-demand'
+$ git config --global alias.supdate 'submodule update --remote --merge'
 ```
 ## Adding a Submodule to a Project
 In Git Bash, cd to the folder for the project you want to add the submodule to.  For instance, cd to /c/gitHub/MonoGame/Apps/AppFoo then add the submodule.<br>
