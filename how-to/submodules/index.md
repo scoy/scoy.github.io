@@ -26,7 +26,7 @@ This will create a new folder in the current location with the name of the inclu
 **$ ls** will show:<br>
 **AppFoo/ AppFoo.sln Koi/**
 
-Now in Visual Studio add the submodule project to the app's solution (Add existing project -- nav to the submodule's .csproj file).  You will also need to add a project reference in the app to the submodule project. 
+Now in Visual Studio add the submodule project to the app's solution (Add existing project -- nav to the submodule's .csproj file).  You will also need to add a project reference in the app to the submodule project and fix up any build order issues. 
 
 ## Seeing Local Changes
 If you've changed the submodel, GitHub Desktop will let you know bu showing a change in the submodule but won't allow you to do anything about it.  Here's what it looks like when both Koi and Koi.Prim2D have been changed.
@@ -98,7 +98,7 @@ For each submodule that has changed:<br>
 >Go into the submodule directory.<br>
 Add the files you want to commit.<br>
 **$ git add \<file\>** or<br>
-**$ git add -A** to get all changed files.
+**$ git add -A** to get all changed files. Or **$ git add --all** 
 
 
 >Commit:<br>
