@@ -113,10 +113,12 @@ This pushes to GitHub, updating the main branch.
 
 - Copy project to new folder with new name.
 - Delete .git folder
+- Delete existing submodule folders.
 - Change solution and project names (inside .sln and .csproj files, too)
 - Create repo in Desktop
 - If .gitmodules file is missing, in Bash **$ git sumbmodule init**
-- In Bash, go to folder and add each submodule **$ git submodule add \<URL\>** 
+- In Bash, go to folder and add each submodule **$ git submodule add \<URL\>**
+- Load into VS and do a global search and replace, new name for old name. 
 - Publish to GitHub.
 
 
