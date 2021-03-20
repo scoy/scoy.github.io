@@ -8,7 +8,34 @@ show_sidebar: false
 
 # MonoGame
 
-Getting content to show up in VS while also being in MGCB.
+## Setting up a new project from a new VS project.
+- Create a new DX project in VS using the project name you want.  By default this should be in **C:\GitHub\MonoGame\Apps\Project**
+- Copy .gitignore from EmptyDX (or any other C# project) into the new project's root folder.
+- In GitHub Desktop, create the new repository for this and publish to GitHub.
+- In Git Bash:
+  - cd to /c/GitHub/MonoGame/Apps/Project
+  - **$ git submodule init**
+  - **$ git submodule add https://github.com/scoy/Koi**
+  - cd to /c/GitHub/MonoGame/Apps/Project/Project
+  - **$ git submodule add https://github.com/scoy/KoiX**
+  - cd to /c/GitHub/MonoGame/Apps/Project/Project/Content
+  - **$ git submodule add https://github.com/scoy/KoiXContent**
+- Back to VS:
+  - Right click on the Solution and add Koi as an existing project.
+  - Under Project Dependencies, right click and add project reference to Koi.
+  - Under Content, add folders for Audio, Fonts, Textures, Shaders, and Xml as needed.
+  - Double-click on the Content.mgcb object to bring up the editor.
+  - In the MGCB Editor:
+    - Edit->Add Existing Folder and add KoiXContent.  This will replicate the folders inside.  Just right click on them and exclude them.
+    - Also need to exclude .git and .gitattribute files from content.
+    - Some files need to be set to copy rather than build.
+      - Color.fx
+      - *.inc
+      - All files in Shaders\Filters\Geometry\Code
+      - *.txt files in Xml\Unicode
+- Should be good to go.  At this point, replace Game1.cs from EmptyDX and add Main.cs.
+
+## Getting content to show up in VS while also being in MGCB.
 
 To add content to a VS project:
 - Find the folder with Content.mgcb in it.  This should be named 'Content'.
