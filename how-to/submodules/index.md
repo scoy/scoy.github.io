@@ -28,13 +28,13 @@ show_sidebar: false
 - Look at the above image.  One way to get the changes back to GitHub is to right click on origin/main (the one with the Kodu icon rather than the laptop icon) and choose **Merge HEAD into origin/main**.
 - Alternatively, change branch from HEAD to main, right click on origin/main and choose **Merge main into origin/main**.
 - Click the **Push** button at the top to push the changes to GitHub.  The submodule on GitHub is not up to date with the latest changes.
-- Finally, if you now look at the submodules in the project, you will see that the version committed to the project is 2 commits behind the origin.  At the project level, do a **Pull** to catch up.
+- Finally, if you now look at the submodules in the project, you will see that the version committed to the project is 2 commits behind the origin.  At the project level, stage, commit, and push to sync to the submodule.
 ![Behind](Behind.png)
 
 ## Updating Submodule on other projects
 - Right click on the submodule and choose **Open**.
 - Switch branch to main and **Pull**.
-- As above, at the project level also do a **Pull** to sync everything up. 
+- As above, at the project level, stage, commit, and push to sync to the submodule.
 
 
 
