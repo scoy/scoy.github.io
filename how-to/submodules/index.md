@@ -10,7 +10,7 @@ show_sidebar: false
 
 ## Adding a SubModule
 - Click on the submodule icon on the left side menu.
-- Click on the '+' in the upper right to add new submodule.
+- Click on the '+' in the upper right to add new submodule.<br>
 ![Add Submodule](AddSubmodule.png)
 
 ## Changing Submodule files locally
@@ -19,16 +19,16 @@ show_sidebar: false
 
 ## Committing local changes
 - Right click on the **...** menu next to the submodule name and select **Open this submodule**.
-- Stage and commit changes.  Note that this leaves the submodule in a "detached head" state.
+- Stage and commit changes.  Note that this leaves the submodule in a "detached head" state.<br>
 ![Detached Head](DetachedHead.png)
-- Right click on "main" and choose **Merge HEAD into main**.
+- Right click on "main" and choose **Merge HEAD into main**.<br>
 ![Merging](Merging.png)
 
 ## Pushing back to GitHub
 - Look at the above image.  One way to get the changes back to GitHub is to right click on origin/main (the one with the Kodu icon rather than the laptop icon) and choose **Merge HEAD into origin/main**.
 - Alternatively, change branch from HEAD to main, right click on origin/main and choose **Merge main into origin/main**.
 - Click the **Push** button at the top to push the changes to GitHub.  The submodule on GitHub is not up to date with the latest changes.
-- Finally, if you now look at the submodules in the project, you will see that the version committed to the project is 2 commits behind the origin.  At the project level, stage, commit, and push to sync to the submodule.
+- Finally, if you now look at the submodules in the project, you will see that the version committed to the project is 2 commits behind the origin.  At the project level, stage, commit, and push to sync to the submodule.<br>
 ![Behind](Behind.png)
 
 ## Updating Submodule on other projects
