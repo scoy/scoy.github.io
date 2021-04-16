@@ -6,6 +6,42 @@ hero_height: is-small
 show_sidebar: false
 ---
 
+# Working with SubModules in GitKraken
+
+## Adding a SubModule
+- Click on the submodule icon on the left side menu.
+- Click on the '+' in the upper right to add new submodule.
+![Add Submodule](AddSubmodule.png)
+
+## Changing Submodule files locally
+- Change file and save to disk.  Here I've changed a file in KoiX.  Note the "recycle" icon in orange.  This indicates the submodule has changes.<br>
+![Change Submodule](ChangedSubmodule.png)
+
+## Committing local changes
+- Right click on the **...** menu next to the submodule name and select **Open this submodule**.
+- Stage and commit changes.  Note that this leaves the submodule in a "detached head" state.
+![Detached Head](DetachedHead.png)
+- Right click on "main" and choose **Merge HEAD into main**.
+![Merging](Merging.png)
+
+## Pushing back to GitHub
+- Look at the above image.  One way to get the changes back to GitHub is to right click on origin/main (the one with the Kodu icon rather than the laptop icon) and choose **Merge HEAD into origin/main**.
+- Alternatively, change branch from HEAD to main, right click on origin/main and choose **Merge main into origin/main**.
+- Click the **Push** button at the top to push the changes to GitHub.  The submodule on GitHub is not up to date with the latest changes.
+- Finally, if you now look at the submodules in the project, you will see that the version committed to the project is 2 commits behind the origin.  At the project level, do a **Pull** to catch up.
+![Behind](Behind.png)
+
+## Updating Submodule on other projects
+- Right click on the submodule and choose **Open**.
+- Switch branch to main and **Pull**.
+- As above, at the project level also do a **Pull** to sync everything up. 
+
+
+
+---
+
+---
+
 # Working with SubModules in Git
 GitHub Desktop doesn't seem to know much about submodules so it's not a lot of help.  We will use submodules as a way of including libraries into projects without running into the issues we had where all projects shared the same library references.
 
