@@ -8,6 +8,12 @@ show_sidebar: false
 
 # Working with SubModules in GitKraken
 
+First of all, why are we doing this at all?  If we just include the libraries in the project then the changes to the libraries will affect all projects that use the libraries.  This means that any change to a library and break multiple projects.
+
+The purpose of the submodules is to make using shared libraries a good thing while not forcing all applications to always take the latest changes.  Local changes can still be committed.  These only affect the single application until they are pushed up to GitHub.  At that point they still don't affect other applications until you pull those changes.
+
+Overall the process is kind of complex and error prone but it does makes things more flexible.  Is it worth it?  We'll see.
+
 ## Adding a SubModule
 - Click on the submodule icon on the left side menu.
 - Click on the '+' in the upper right to add new submodule.<br>
