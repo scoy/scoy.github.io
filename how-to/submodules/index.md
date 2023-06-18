@@ -14,6 +14,8 @@ The purpose of the submodules is to make using shared libraries a good thing whi
 
 Overall the process is kind of complex and error prone but it does makes things more flexible.  Is it worth it?  We'll see.
 
+These notes are good but need to have more info regarding how this all works in both Git, GitKraken, and VS.
+
 ## Adding a SubModule
 - Click on the submodule icon on the left side menu.
 - Click on the '+' in the upper right to add new submodule.<br>
@@ -33,8 +35,9 @@ Overall the process is kind of complex and error prone but it does makes things 
 ## Pushing back to GitHub
 - Look at the above image.  One way to get the changes back to GitHub is to right click on origin/main (the one with the Kodu icon rather than the laptop icon) and choose **Merge HEAD into origin/main**.
 - Alternatively, change branch from HEAD to main, right click on origin/main and choose **Merge main into origin/main**.
+- Either way, be sure to switch branch back to main if on HEAD.
 - Click the **Push** button at the top to push the changes to GitHub.  The submodule on GitHub is not up to date with the latest changes.
-- Finally, if you now look at the submodules in the project, you will see that the version committed to the project is 2 commits behind the origin.  At the project level, stage, commit, and push to sync to the submodule.<br>
+- Finally, if you now look at the submodules in the project, you will see that the version committed to the project is 2 commits behind the origin.  At the project level, stage, commit, and push to sync to the submodule. ??? Really? Or do you just need to pull?<br>
 ![Behind](Behind.png)
 
 ## Updating Submodule on other projects
