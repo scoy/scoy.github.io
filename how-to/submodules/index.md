@@ -166,4 +166,35 @@ This pushes to GitHub, updating the main branch.
 - In Bash, go to folder and add each submodule **$ git submodule add \<URL\>**
 - Publish to GitHub.
 
+## Attempt #2, hopefully with more detail...
+
+- Copy solution to new folder with new name.  Try and pick a name that is unique and not likely to conflict with class names, etc.  This just makes search and replace much easier. Remember to copy/paste when copying ther solution to the new folder.  Drag and drop will move the files, not copy them.<br>
+> - Copy solution.<br>
+> - Rename **.sln** file and project folder.<br>
+> - Edit the **.sln** file and change the project name.<br>
+> - In the project folder, rename the **.csproj** file<br>
+- Load the solution into VS and rename the project namespaces to match the new name.  If you've picked a unique this can just be a global search and replace.  At this point it should still build and run.  Exit VS.
+- Delete the **.git** folder.
+- Edit **.gitmodules** to change the paths of the submodules.
+- Add to GitHub:
+> - In GitHub Desktop, choose **Create New Repository**.<br>
+> - When the repo is created, then choose **Publish your repository to GitHub**.
+
+- Now switch to GitKraken and everything should just work.  :-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
