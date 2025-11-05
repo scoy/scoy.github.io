@@ -153,7 +153,7 @@ Add the files you want to commit.<br>
 **$ git push**<br>
 This pushes to GitHub, updating the main branch.
 
-<!--
+
 ## Creating a New Project from a Project with Submodules
 
 - Copy project to new folder with new name.
@@ -185,10 +185,7 @@ This pushes to GitHub, updating the main branch.
 - Back in GitHub Desktop choose **Publish your repository to GitHub**. <br>
 At this point you should be able to open GitKraken, connect to the repo, and see the submodules properly represented with green checkmarks.   
 
-<br>
 
-
--->
 
 
 
