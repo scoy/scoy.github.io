@@ -10,7 +10,7 @@ description: >
 #gh_sponsor: chrisrhymes
 #hide_share_buttons: true
 
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: scoy/bulma-clean-theme
 
 plugins:
   - jekyll-sitemap
