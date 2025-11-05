@@ -153,7 +153,7 @@ Add the files you want to commit.<br>
 **$ git push**<br>
 This pushes to GitHub, updating the main branch.
 
-
+<!--
 ## Creating a New Project from a Project with Submodules
 
 - Copy project to new folder with new name.
@@ -187,7 +187,7 @@ At this point you should be able to open GitKraken, connect to the repo, and see
 
 <br>
 
-
+-->
 
 
 
