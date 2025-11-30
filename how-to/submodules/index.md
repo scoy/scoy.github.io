@@ -182,6 +182,8 @@ This pushes to GitHub, updating the main branch.
 > - In Git Bash cd to the correct directories and add the submodules:<br>
 > **$ git submodule add https://github.com/scoy/KoiX**
 
+- Adding the submodules will the **.gitmodules** file and the directory for each submodule.  Using Desktop, commit this change.
+
 - Back in GitHub Desktop choose **Publish your repository to GitHub**. <br>
 At this point you should be able to open GitKraken, connect to the repo, and see the submodules properly represented with green checkmarks.   
 
